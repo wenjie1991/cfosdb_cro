@@ -1,0 +1,36 @@
+<div class="container">
+	<!--            <table id="myTable" class="table table-bordered">-->
+	<h2>Brain Area Annotation</h2>
+	<table id="brain_area_annotation_table" class="display" style="width:100%">
+		<thead>
+			<tr>
+				<th>Species</th>
+				<th>Main</th>
+				<th>Alias</th>
+			</tr>
+		</thead>
+		<tbody class="tablebody">
+			{{#tr}}
+			<tr>
+				<th>{{species}}</th>
+				<th>{{main}}</th>
+				<th>{{long}}</th>
+			</tr>
+			{{/tr}}
+		</tbody>
+		<tfoot>
+			<tr>
+				<th>Species</th>
+				<th>Main</th>
+				<th>Alias</th>
+			</tr>
+		</tfoot>
+	</table>
+</div>
+
+<!-- Initialize plugin:multiselect and Data Table -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#brain_area_annotation_table').DataTable();
+	});
+</script>

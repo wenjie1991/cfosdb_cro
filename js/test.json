@@ -1,0 +1,33 @@
+{
+	"links": [
+		{
+			"source": "n1",
+			"target": "n2"
+		}
+	],
+
+	"nodes": [
+		{
+			"id": "n1",
+			"name": "n1-label",
+			"value": 28.685715,
+			"category": 0,
+			"symbol": "circle",
+			"symbolSize": 5,
+			"itemStyle": null,
+			"label": {"normal": {"show": false}},
+			"color": "red"
+		},
+		{
+			"id": "n2",
+			"name": "n2-label",
+			"value": 28.685715,
+			"category": 1,
+			"symbol": "circle",
+			"symbolSize": 5,
+			"itemStyle": null,
+			"label": {"normal": {"show": false}},
+			"color": "red"
+		}
+	]
+}

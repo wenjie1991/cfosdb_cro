@@ -1,0 +1,15 @@
+---
+links:  []
+name: cfosdb
+env:  []
+cro: 1
+endpoints: 
+  - 
+    id: http
+    host-env: CFOSDB_HOST
+    name: HTTP
+    protocol: http
+    port-env: CFOSDB_PORT
+entrypoint: service.p6
+id: cfosdb
+...

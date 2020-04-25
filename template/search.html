@@ -1,0 +1,190 @@
+<div class="container">
+	<div class="jumbotron">
+		<!-- <form action="javascript:;" onsubmit="return handleSubmit()">-->
+		<form action="/search" method='post'>
+
+			<h3>Search</h3>
+
+<!--            <div class="row">-->
+<!--                <div class="col-lg-2 form-group">-->
+<!--                    <label for="species">Species:&nbsp</label>-->
+<!--                    </br>-->
+<!--                    <select class="form-control" id='species' name='species' value="all">-->
+<!--                        <option value='%'>All</option>-->
+<!--                        <option value='mice'>Mice</option>-->
+<!--                        <option value='rat'>Rat</option>-->
+<!--                    </select>-->
+<!--                </div>-->
+<!--            </div>-->
+
+			<div class="row">
+				<div class="col-lg-2 form-group">
+					<label for="behavior">Behavior:</label>
+					</br>
+					<select class="form-control" id='behavior' multiple="multiple" name='behavior'>
+						<option value="pain" selected="selected">Pain</option>
+						<option value="aggression" selected="selected">Aggression</option>
+						<option value="fear" selected="selected">Fear</option>
+						<option value="feeding" selected="selected">Feeding</option>
+						<option value="sexual" selected="selected">Sexual Behavior</option>
+					</select>
+				</div>
+
+				<div class="col-lg-6 form-group">
+					<label for="brain_area">Brain Area <a href="./help#brain_area_annotation" title="Brain Area Index Table">(Brain Area Index)</a> :</label>
+					</br>
+					<!-- <input type="text" class="form-control" placeholder="Example: nucleus accumbens" id="brain_area" name="brain_area">-->
+					<select class="form-control" id='brain_area' multiple="multiple" name='brain_area'>
+						{{#brain_area}}
+						<!--                        <option value="1">dorsal horn, spinal cord</option>-->
+						<!--                        <option value="2">nucleus accumbens</option>-->
+						<option value="{{brain_code}}">{{long}}</option>
+						{{/brain_area}}
+					</select>
+				</div>
+				<div class="col-lg-3"></div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-2 form-group">
+					<label for="gender">Gender:&nbsp</label>
+					</br>
+					<select class="form-control" id='gender' name='gender' value='all'>
+						<option value='%'>All</option>
+						<option value='male'>Male</option>
+						<option value='female'>Female</option>
+					</select>
+				</div>
+				<!-- <div class="col-lg-2 form-group">-->
+				<!--     <label for="display-col">Columns:&nbsp</label>-->
+				<!--     </br>-->
+				<!--     <select class="form-control" id='display-col' multiple="multiple" name='multiselect'>-->
+				<!--         <option value="jQuery">jQuery tutorial</option>-->
+				<!--         <option value="Bootstrap">Bootstrap Tips</option>-->
+				<!--         <option value="HTML" selected="selected">HTML</option>-->
+				<!--         <option value="CSS">CSS tricks</option>-->
+				<!--         <option value="angular">Angular JS</option>-->
+				<!--     </select>-->
+				<!-- </div>-->
+			</div>
+			<div class='row'>
+				<div class='col-lg-6 form-group'>
+					<label >Other:&nbsp</label>
+					<label class="checkbox-inline"><input type="checkbox" id='with_figure' name='with_figure'>With Figure</label>
+					<label class="checkbox-inline"><input type="checkbox" id='significant' name='significant'>Statistics Significant</label>
+				</div>
+			</div>
+
+			<div class='row'>
+				<div class='col-lg-3 form-group'>
+					<input type="submit" class='btn' value="Submit">
+				</div>
+			</div>
+
+		</form>
+	</div> 
+</div>
+
+
+<div class="container">
+
+	<!--            <table id="myTable" class="table table-bordered">-->
+	<table id="myTable" class="display" style="width:100%">
+		<thead>
+			<tr>
+				<th>Behavior</th>
+				<th>Species</th>
+				<th>Gender</th>
+				<th>Condition</th>
+				<th>Brain Area</th>
+<!--                <th>Alias</th>-->
+				<th>DOI</th>
+			</tr>
+		</thead>
+		<tbody class="tablebody">
+			{{#tr}}
+			<tr>
+				<th>{{behavior}}</th>
+				<th>{{species}}</th>
+				<th>{{gender}}</th>
+				<th>{{condition}}</th>
+				<th><a href='https://www.ncbi.nlm.nih.gov/pubmed/?term="{{main}}"'>{{main}}</a></th>
+				<th><a href="http://{{doi}}">{{doi}}</a></th>
+			</tr>
+			{{/tr}}
+		</tbody>
+		<tfoot>
+			<tr>
+				<th>Behavior</th>
+				<th>Species</th>
+				<th>Gender</th>
+				<th>Condition</th>
+				<th>Brain Area</th>
+<!--                <th>Alias</th>-->
+				<th>DOI</th>
+			</tr>
+		</tfoot>
+	</table>
+
+
+</div>
+
+<!-- Initialize plugin:multiselect and Data Table -->
+<script type="text/javascript">
+		$(document).ready(function() {
+			$('#display-col').multiselect({
+				includeSelectAllOption: true,
+				enableFiltering: true,
+				buttonWidth: '100px',
+				maxHeight: 250
+			});
+			$('#behavior').multiselect({
+				includeSelectAllOption: true,
+				enableFiltering: true,
+				buttonWidth: '150px',
+				maxHeight: 250
+			});
+			$('#brain_area').multiselect({
+				includeSelectAllOption: true,
+				enableFiltering: true,
+				buttonWidth: '300px',
+				maxHeight: 250
+			});
+			$('#myTable').DataTable();
+		});
+</script>
+<div class="container">
+	<div class='col-lg-6 form-group'>
+		<label >Network Options:&nbsp</label>
+		<label class="checkbox-inline" onclick=re_draw()><input type="checkbox" id='brain_area_level' name='with_figure'>Display Detail Brain Area</label>
+		<label class="checkbox-inline" onclick=re_draw()><input type="checkbox" id='behavior_level' name='significant'>Display Condition</label>
+	</div>
+</div>
+<div class="container">
+	<div id="network_chart" style="width: 800px;height:500px;"></div>
+	<script src="./js/main.js"></script>
+	<script> 
+	var tbJson = {{{network_data}}}; 
+	var brain_area_level = 2, behavior_level = 2;
+	function re_draw() {
+		// debugger;
+		if ($("#brain_area_level")[0].checked == true) {
+			brain_area_level = 1;
+		} else {
+			brain_area_level = 2;
+		}
+		if ($("#behavior_level")[0].checked == true) {
+			behavior_level = 1;
+		} else {
+			behavior_level = 2;
+		}
+		console.log([
+			brain_area_level,
+			behavior_level
+		]);
+		//draw_network(tbJson, brain_area_level = brain_area_level, behavior_level = behavior_level);
+		draw_network(tbJson, brain_area_level = brain_area_level, behavior_level = behavior_level);
+	}
+	draw_network(tbJson, brain_area_level = brain_area_level, behavior_level = behavior_level);
+	</script>
+</div>

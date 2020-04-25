@@ -1,0 +1,710 @@
+[
+  {
+    "species": "mice",
+    "main": "bed nucleus of the stria terminalis",
+    "brain_code": "B19",
+    "long": "Mice: bed nucleus of the stria terminalis(ST)"
+  },
+  {
+    "long": "Mice: bed nucleus of the stria terminalis, lateral division; ventral part(STLV)",
+    "brain_code": "B19.1",
+    "species": "mice",
+    "main": "bed nucleus of the stria terminalis, lateral division; ventral part"
+  },
+  {
+    "species": "mice",
+    "main": "bed nucleus of the stria terminalis, medial division; ventral part",
+    "long": "Mice: bed nucleus of the stria terminalis, medial division; ventral part(STMV)",
+    "brain_code": "B19.2"
+  },
+  {
+    "long": "Mice: central amygdaloid nucleus(Ce)",
+    "brain_code": "B10.1",
+    "main": "central amygdaloid nucleus",
+    "species": "mice"
+  },
+  {
+    "main": "cingulate cortex",
+    "species": "mice",
+    "long": "Mice: cingulate cortex(Cg)",
+    "brain_code": "B14"
+  },
+  {
+    "long": "Mice: cingulate cortex, area 1(Cg1)",
+    "brain_code": "B14.1",
+    "species": "mice",
+    "main": "cingulate cortex, area 1"
+  },
+  {
+    "long": "Mice: dentate gyrus(DG)",
+    "brain_code": "B9",
+    "species": "mice",
+    "main": "dentate gyrus"
+  },
+  {
+    "species": "mice",
+    "main": "lateral septal nucleus",
+    "brain_code": "B18",
+    "long": "Mice: lateral septal nucleus(LS)"
+  },
+  {
+    "long": "Mice: lateral septal nucleus, dorsal part(LSD)",
+    "brain_code": "B18.1",
+    "species": "mice",
+    "main": "lateral septal nucleus, dorsal part"
+  },
+  {
+    "long": "Mice: lateral septal nucleus, ventral part(LSV)",
+    "brain_code": "B18.2",
+    "main": "lateral septal nucleus, ventral part",
+    "species": "mice"
+  },
+  {
+    "long": "Mice: medial amygdaloid nucleus(Me)",
+    "brain_code": "B10.3",
+    "species": "mice",
+    "main": "medial amygdaloid nucleus"
+  },
+  {
+    "long": "Mice: medial amygdaloid nucleus, anterior part(MeA)",
+    "brain_code": "B10.31",
+    "species": "mice",
+    "main": "medial amygdaloid nucleus, anterior part"
+  },
+  {
+    "species": "mice",
+    "main": "paraventricular hypothalamic nucleus",
+    "long": "Mice: paraventricular hypothalamic nucleus(Pa)",
+    "brain_code": "B20"
+  },
+  {
+    "long": "Mice: paraventricular hypothalamic nucleus, posterior part(PaPo)",
+    "brain_code": "B20.2",
+    "species": "mice",
+    "main": "paraventricular hypothalamic nucleus, posterior part"
+  },
+  {
+    "species": "mice",
+    "main": "paraventricular hypothalamic nucleus,ventral part",
+    "brain_code": "B20.3",
+    "long": "Mice: paraventricular hypothalamic nucleus,ventral part(PaV)"
+  },
+  {
+    "species": "mice",
+    "main": "paraventricular thalamic nucleus",
+    "long": "Mice: paraventricular thalamic nucleus(PV)",
+    "brain_code": "B16"
+  },
+  {
+    "main": "piriform cortex",
+    "species": "mice",
+    "brain_code": "B13",
+    "long": "Mice: piriform cortex(Pir)"
+  },
+  {
+    "brain_code": "B12.1",
+    "long": "Mice: premammillary nucleus, dorsal part (PMD)",
+    "main": "premammillary nucleus, dorsal part ",
+    "species": "mice"
+  },
+  {
+    "brain_code": "B34",
+    "long": "Mice: anterior hypothalamic area(AH)",
+    "main": "anterior hypothalamic area",
+    "species": "mice"
+  },
+  {
+    "long": "Mice: anterior olfactory area external part(AOE)",
+    "brain_code": "B35",
+    "main": "anterior olfactory area external part",
+    "species": "mice"
+  },
+  {
+    "brain_code": "B37",
+    "long": "Mice: caudate putamen (striatum)(Cpu)",
+    "species": "mice",
+    "main": "caudate putamen (striatum)"
+  },
+  {
+    "species": "mice",
+    "main": "claustrum",
+    "brain_code": "B39",
+    "long": "Mice: claustrum(CI)"
+  },
+  {
+    "long": "Mice: dorsal raphe nucleus(DR)",
+    "brain_code": "B42",
+    "species": "mice",
+    "main": "dorsal raphe nucleus"
+  },
+  {
+    "brain_code": "B46",
+    "long": "Mice: granule cell layer of the accessory olfactory bulb(GrA)",
+    "species": "mice",
+    "main": "granule cell layer of the accessory olfactory bulb"
+  },
+  {
+    "brain_code": "B48",
+    "long": "Mice: lateral periaqueductal gray(LPAG)",
+    "main": "lateral periaqueductal gray",
+    "species": "mice"
+  },
+  {
+    "main": "lateral preoptic area",
+    "species": "mice",
+    "brain_code": "B49",
+    "long": "Mice: lateral preoptic area(LPO)"
+  },
+  {
+    "species": "mice",
+    "main": "medial preoptic area",
+    "brain_code": "B51",
+    "long": "Mice: medial preoptic area(MPA)"
+  },
+  {
+    "long": "Mice: medial preoptic nucleus, medial part(MPOM)",
+    "brain_code": "B52.1",
+    "main": "medial preoptic nucleus, medial part",
+    "species": "mice"
+  },
+  {
+    "species": "mice",
+    "main": "mitral cell layer of the accessory olfactory bulb",
+    "brain_code": "B54",
+    "long": "Mice: mitral cell layer of the accessory olfactory bulb(MiA)"
+  },
+  {
+    "long": "Mice: superior colliculus(SC)",
+    "brain_code": "B59",
+    "species": "mice",
+    "main": "superior colliculus"
+  },
+  {
+    "long": "Mice: ventral tegmental area(VTA)",
+    "brain_code": "B61",
+    "main": "ventral tegmental area",
+    "species": "mice"
+  },
+  {
+    "brain_code": "R1",
+    "long": "Rat: dorsal horn, spinal cord ; dorsal horn (DH)",
+    "species": "rat",
+    "main": "dorsal horn, spinal cord "
+  },
+  {
+    "long": "Rat: nucleus accumbens; accumbens nucleus; Nac (ACB; Acb)",
+    "brain_code": "R2",
+    "species": "rat",
+    "main": "nucleus accumbens"
+  },
+  {
+    "long": "Rat: accumbens nucleus_core; nucleus accumbens core (AcbC; Nacc)",
+    "brain_code": "R2.1",
+    "species": "rat",
+    "main": "accumbens nucleus_core"
+  },
+  {
+    "brain_code": "R2.2",
+    "long": "Rat: accumbens nucleus_shell; nucleus accumbens shell (AcbSh)",
+    "main": "accumbens nucleus_shell",
+    "species": "rat"
+  },
+  {
+    "long": "Rat: periaqueductal gray (PAG)",
+    "brain_code": "R3",
+    "main": "periaqueductal gray",
+    "species": "rat"
+  },
+  {
+    "main": "periaqueductal gray, dorsal division",
+    "species": "rat",
+    "long": "Rat: periaqueductal gray, dorsal division; the dorsal PAG (PAGd)",
+    "brain_code": "R3.1"
+  },
+  {
+    "long": "Rat: periaqueductal gray, dorsolateral division; dorsolateral periaqueductal gray (PAGdl; DLPAG)",
+    "brain_code": "R3.12",
+    "main": "periaqueductal gray, dorsolateral division",
+    "species": "rat"
+  },
+  {
+    "brain_code": "R3.2",
+    "long": "Rat: periaqueductal gray, medial division ; dorsomedial periaqueductal gray (PAGm; DMPAG)",
+    "species": "rat",
+    "main": "periaqueductal gray, medial division "
+  },
+  {
+    "brain_code": "R3.3",
+    "long": "Rat: lateral periaqueductal gray (LPAG)",
+    "main": "lateral periaqueductal gray",
+    "species": "rat"
+  },
+  {
+    "main": "periaqueductal gray, ventrolateral division",
+    "species": "rat",
+    "long": "Rat: periaqueductal gray, ventrolateral division; ventrolateral periaqueductal gray; ventrolateral columns of PAG (PAGvl; VLPAG)",
+    "brain_code": "R3.31"
+  },
+  {
+    "species": "rat",
+    "main": "spinal nucleus of the trigeminal",
+    "long": "Rat: spinal nucleus of the trigeminal; spinal trigeminal nucleus (SPV; Sp5)",
+    "brain_code": "R4"
+  },
+  {
+    "main": "spinal nucleus of the trigeminal, caudal part_sw ",
+    "species": "rat",
+    "brain_code": "R4.1",
+    "long": "Rat: spinal nucleus of the trigeminal, caudal part_sw ; spinal trigeminal nucleus, caudal part ; Trigeminal spinal nucleus caudalis (SPVC; Sp5C; Vc)"
+  },
+  {
+    "species": "rat",
+    "main": "spinal nucleus of the trigeminal, interpolar part_sw",
+    "brain_code": "R4.2",
+    "long": "Rat: spinal nucleus of the trigeminal, interpolar part_sw; spinal trigeminal nucleus, interpolar part; subnucleus interpolaris (SPVI; Sp5I; SNI)"
+  },
+  {
+    "main": "spinal nucleus of the trigeminal,oral part",
+    "species": "rat",
+    "long": "Rat: spinal nucleus of the trigeminal,oral part (SPVO)",
+    "brain_code": "R4.3"
+  },
+  {
+    "brain_code": "R4.31",
+    "long": "Rat: spinal nucleus of the trigeminal, oral part, ventrolateral part; the ventrolateral portion of spinal trigeminal nucleus (SPVOvl)",
+    "species": "rat",
+    "main": "spinal nucleus of the trigeminal, oral part, ventrolateral part"
+  },
+  {
+    "species": "rat",
+    "main": "Parabrachial nucleus",
+    "brain_code": "R5",
+    "long": "Rat: Parabrachial nucleus; PBN (PB)"
+  },
+  {
+    "long": "Rat: parabrachial nucleus, lateral division  ; lateral parabrachial nucleus; lateralparabrachial nucleus (PBl; LPB)",
+    "brain_code": "R5.1",
+    "species": "rat",
+    "main": "parabrachial nucleus, lateral division  "
+  },
+  {
+    "main": "parabrachial nucleus, external lateral part ",
+    "species": "rat",
+    "brain_code": "R5.11",
+    "long": "Rat: parabrachial nucleus, external lateral part ; lateral parabrachial nucleus, external part; Pbel (PBle; LPBE)"
+  },
+  {
+    "brain_code": "R5.12",
+    "long": "Rat: parabrachial nucleus_central lateral part; lateral parabrachial nucleus, central part; PBcl (PBlc; LPBC)",
+    "species": "rat",
+    "main": "parabrachial nucleus_central lateral part"
+  },
+  {
+    "long": "Rat: parabrachial nucleus_ dorsal lateral part; lateral parabrachial nucleus, dorsal part; PBdl (PBld; LPBD)",
+    "brain_code": "R5.13",
+    "species": "rat",
+    "main": "parabrachial nucleus_ dorsal lateral part"
+  },
+  {
+    "main": "parabrachial nucleus_superior lateral part",
+    "species": "rat",
+    "long": "Rat: parabrachial nucleus_superior lateral part; lateral parabrachial nucleus, superior part; PBsl (PBls; LPBS)",
+    "brain_code": "R5.14"
+  },
+  {
+    "main": "parabrachial nucleus_internal lateral part",
+    "species": "rat",
+    "brain_code": "R5.15",
+    "long": "Rat: parabrachial nucleus_internal lateral part; lateral parabrachial nucleus, internal part; PBil (Pbli; LPBI)"
+  },
+  {
+    "long": "Rat: parabrachial nucleus_medial division; medial parabrachial nucleus (PBm; MPB)",
+    "brain_code": "R5.2",
+    "species": "rat",
+    "main": "parabrachial nucleus_medial division"
+  },
+  {
+    "species": "rat",
+    "main": "parabrachial nucleus_external medial part",
+    "long": "Rat: parabrachial nucleus_external medial part; medial parabrachial nucleus external part; Pbem (Pbme; MPBE)",
+    "brain_code": "R5.21"
+  },
+  {
+    "species": "rat",
+    "main": "ventral tegmental area",
+    "brain_code": "R6",
+    "long": "Rat: ventral tegmental area (VTA)"
+  },
+  {
+    "main": "ventral tegmental area, rostral part",
+    "species": "rat",
+    "brain_code": "R6.1",
+    "long": "Rat: ventral tegmental area, rostral part; rostral sections of the VTA (VTAR)"
+  },
+  {
+    "species": "rat",
+    "main": "locus ceruleus",
+    "brain_code": "R7",
+    "long": "Rat: locus ceruleus; locus coeruleus; LoC (LC)"
+  },
+  {
+    "brain_code": "R10",
+    "long": "Rat: lateral reticular nucleus (LRN; LRt)",
+    "main": "lateral reticular nucleus",
+    "species": "rat"
+  },
+  {
+    "brain_code": "R10.1",
+    "long": "Rat: lateral reticular nucleus, parvicellular part; lateral reticular nucleus,parvicellular part (LRNp; LRtPC)",
+    "species": "rat",
+    "main": "lateral reticular nucleus, parvicellular part"
+  },
+  {
+    "long": "Rat: lateral reticular nucleus,subtrigeminal part (LRtS5)",
+    "brain_code": "R10.2",
+    "main": "lateral reticular nucleus,subtrigeminal part",
+    "species": "rat"
+  },
+  {
+    "brain_code": "R12",
+    "long": "Rat: paramedian reticular nucleus (PMR; PMn)",
+    "species": "rat",
+    "main": "paramedian reticular nucleus"
+  },
+  {
+    "species": "rat",
+    "main": "gigantocellular reticular nucleus",
+    "brain_code": "R15",
+    "long": "Rat: gigantocellular reticular nucleus (GRN)"
+  },
+  {
+    "main": "gigantocellular reticular nucleus_ alpha part",
+    "species": "rat",
+    "long": "Rat: gigantocellular reticular nucleus_ alpha part; alpha part of gigantocellular reticular nucleus (GiA; Gia)",
+    "brain_code": "R15.1"
+  },
+  {
+    "brain_code": "R16",
+    "long": "Rat: cingulate region; cingulate cortex (CNG; Cg)",
+    "main": "cingulate region",
+    "species": "rat"
+  },
+  {
+    "main": "anterior cingulate area",
+    "species": "rat",
+    "long": "Rat: anterior cingulate area; cingulate cortex, area 1; anterior cingulate cortex (ACA; Cg1)",
+    "brain_code": "R16.1"
+  },
+  {
+    "main": "nucleus of the solitary tract",
+    "species": "rat",
+    "long": "Rat: nucleus of the solitary tract; solitary tract nucleus (NTS; Sol)",
+    "brain_code": "R22"
+  },
+  {
+    "brain_code": "R22.1",
+    "long": "Rat: nucleus of the solitary tract, central part; central part of nucleus of the solitary tract (NTSce; SolCe)",
+    "species": "rat",
+    "main": "nucleus of the solitary tract, central part"
+  },
+  {
+    "main": "nucleus of the solitary tract_medial part_sw",
+    "species": "rat",
+    "brain_code": "R22.2",
+    "long": "Rat: nucleus of the solitary tract_medial part_sw; nucleus of the solitary tract_ medial part; medial part of nucleus of the solitary tract (NTSm; SolM)"
+  },
+  {
+    "brain_code": "R22.3",
+    "long": "Rat: nucleus of the solitary tract, lateral part; lateral part of nucleus of the solitary tract (NTSl; SolL)",
+    "main": "nucleus of the solitary tract, lateral part",
+    "species": "rat"
+  },
+  {
+    "main": "parasolitary nucleus_sw",
+    "species": "rat",
+    "brain_code": "R22.4",
+    "long": "Rat: parasolitary nucleus_sw; solitary nucleus_ dorsolateral part; dorsolateral part of nucleus of the solitary tract (PAS; SolD)"
+  },
+  {
+    "brain_code": "R22.5",
+    "long": "Rat: nucleus of the solitary tract_intermediate part; dorsolateral part of nucleus of the solitary tract (SolIM)",
+    "main": "nucleus of the solitary tract_intermediate part",
+    "species": "rat"
+  },
+  {
+    "species": "rat",
+    "main": "nucleus of the solitary tract_ rostrolateral part",
+    "brain_code": "R22.6",
+    "long": "Rat: nucleus of the solitary tract_ rostrolateral part; rostrolateral part of nucleus of the solitary tract (SolRL)"
+  },
+  {
+    "long": "Rat: nucleus raph<8e> obscurus; raphe obscurus nucleus; nucleus raphe obscurus (RO; Rob)",
+    "brain_code": "R23",
+    "species": "rat",
+    "main": "nucleus raph<8e> obscurus"
+  },
+  {
+    "brain_code": "R25",
+    "long": "Rat: paraventricular hypothalamic nucleus_sw; paraventricular hypoth nucleus; paraventricular nucleus (PVN) of the hypothalamus (PVH; Pa; PVN)",
+    "species": "rat",
+    "main": "paraventricular hypothalamic nucleus_sw"
+  },
+  {
+    "main": "paraventricular hypothalamic nucleus, anterior magnocellular part",
+    "species": "rat",
+    "long": "Rat: paraventricular hypothalamic nucleus, anterior magnocellular part; anterior commissural nucleus (PVHam)",
+    "brain_code": "R25.11"
+  },
+  {
+    "species": "rat",
+    "main": "paraventricular hypothalamic nucleus, anterior parvicellular part",
+    "brain_code": "R25.12",
+    "long": "Rat: paraventricular hypothalamic nucleus, anterior parvicellular part; parvicellular part of paraventricular hypothalamic nucleus (PVHap; PaAP)"
+  },
+  {
+    "long": "Rat: paraventricular hypothalamic nucleus, dorsal part ; dorsal region of the PVN (PVHd)",
+    "brain_code": "R25.2",
+    "main": "paraventricular hypothalamic nucleus, dorsal part ",
+    "species": "rat"
+  },
+  {
+    "species": "rat",
+    "main": "paraventricular hypothalamic nucleus, lateral parvicellular part",
+    "long": "Rat: paraventricular hypothalamic nucleus, lateral parvicellular part; lateral subdivision of hypothalamic paraventricular nucleus (PVHlp)",
+    "brain_code": "R25.31"
+  },
+  {
+    "main": "paraventricular hypothalamic nucleus, magnocellular division",
+    "species": "rat",
+    "long": "Rat: paraventricular hypothalamic nucleus, magnocellular division; medial region of the PVN (PVHm)",
+    "brain_code": "R25.4"
+  },
+  {
+    "brain_code": "R25.41",
+    "long": "Rat: paraventricular hypothalamic nucleus, medial magnocellular part; magnocellular (mPVN) regions of the PVN (PVHmm; PaMM)",
+    "main": "paraventricular hypothalamic nucleus, medial magnocellular part",
+    "species": "rat"
+  },
+  {
+    "main": "paraventricular hypothalamic nucleus, medial parvicellular part",
+    "species": "rat",
+    "brain_code": "R25.42",
+    "long": "Rat: paraventricular hypothalamic nucleus, medial parvicellular part; medial parvicellular (PVHmp; PaMP)"
+  },
+  {
+    "species": "rat",
+    "main": "paraventricular hypothalamic nucleus, parvicellular division  ",
+    "brain_code": "R25.5",
+    "long": "Rat: paraventricular hypothalamic nucleus, parvicellular division  ; periventricular region of the PVN (PVHp)"
+  },
+  {
+    "species": "rat",
+    "main": "paraventricular hypothalamic nucleus, dorsal parvicellular part",
+    "brain_code": "R25.51",
+    "long": "Rat: paraventricular hypothalamic nucleus, dorsal parvicellular part; paraventricular hypothalamic nucleus_ dorsal cap; dorsal parvocellular regions (PVN) (PVHpd; PaDC)"
+  },
+  {
+    "long": "Rat: paraventricular hypothalamic nucleus, posterior magnocellular part; paraventricular hypothalamic nucleus, posterior part; Posterior paraventricular (PVHpm; PaPo)",
+    "brain_code": "R25.52",
+    "species": "rat",
+    "main": "paraventricular hypothalamic nucleus, posterior magnocellular part"
+  },
+  {
+    "species": "rat",
+    "main": "paraventricular hypothalamic nucleus_ventral part",
+    "brain_code": "R25.6",
+    "long": "Rat: paraventricular hypothalamic nucleus_ventral part; Ventromedial nucleus (PaV)"
+  },
+  {
+    "species": "rat",
+    "main": "ventromedial hypothalamic nucleus",
+    "brain_code": "R32",
+    "long": "Rat: ventromedial hypothalamic nucleus (VMH)"
+  },
+  {
+    "species": "rat",
+    "main": "ventromedial hypothalamic nucleus, dorsomedial part",
+    "long": "Rat: ventromedial hypothalamic nucleus, dorsomedial part; dorsomedial part of ventromedial hypothalamic nucleus (VMHdm; VMHDM)",
+    "brain_code": "R32.1"
+  },
+  {
+    "brain_code": "R32.2",
+    "long": "Rat: ventromedial hypothalamic nucleus, ventrolateral part; ventrolateral part of ventromedial hypothalamic nucleus (VMHvl; VMHVL)",
+    "main": "ventromedial hypothalamic nucleus, ventrolateral part",
+    "species": "rat"
+  },
+  {
+    "long": "Rat: area postrema (AP)",
+    "brain_code": "R37",
+    "species": "rat",
+    "main": "area postrema"
+  },
+  {
+    "long": "Rat: basolateral amygdalar nucleus; basolateral amygdaloid nucleus; basolateral nucleus of the amygdala (BLA; BL)",
+    "brain_code": "R38",
+    "main": "basolateral amygdalar nucleus",
+    "species": "rat"
+  },
+  {
+    "long": "Rat: central amygdalar nucleus; central amygdaloid nucleus; central nucleus of the amygdala (CEA; Ce; CeA)",
+    "brain_code": "R44",
+    "species": "rat",
+    "main": "central amygdalar nucleus"
+  },
+  {
+    "main": "dorsal motor nucleus vagus nerve",
+    "species": "rat",
+    "long": "Rat: dorsal motor nucleus vagus nerve; dorsal motor nucleus of vagus; dorsal motor nucleus of the vagus nerve (DMX; 10N; DMN)",
+    "brain_code": "R50"
+  },
+  {
+    "species": "rat",
+    "main": "paragigantocellular reticular nucleus",
+    "brain_code": "R64",
+    "long": "Rat: paragigantocellular reticular nucleus (PGRN; PGI)"
+  },
+  {
+    "long": "Rat: paragigantocellular reticular nucleus, lateral part; ventrolateral medulla (PGRNl; VLM)",
+    "brain_code": "R64.1",
+    "species": "rat",
+    "main": "paragigantocellular reticular nucleus, lateral part"
+  },
+  {
+    "main": "bed nuclei stria terminalis",
+    "species": "rat",
+    "brain_code": "R87",
+    "long": "Rat: bed nuclei stria terminalis; bed nucleus of stria terminalis (BST; ST)"
+  },
+  {
+    "long": "Rat: supraoptic nucleus, general; supraoptic nucleus (SOg; SO)",
+    "brain_code": "R96",
+    "species": "rat",
+    "main": "supraoptic nucleus, general"
+  },
+  {
+    "long": "Rat: prefrontal region_sw; Prefrontal cortex (PFR)",
+    "brain_code": "R106",
+    "main": "prefrontal region_sw",
+    "species": "rat"
+  },
+  {
+    "long": "Rat: thalamus_sw (TH)",
+    "brain_code": "R114",
+    "main": "thalamus_sw",
+    "species": "rat"
+  },
+  {
+    "main": "superior central nucleus raph<8e>_sw",
+    "species": "rat",
+    "brain_code": "R115",
+    "long": "Rat: superior central nucleus raph<8e>_sw; paramedian raphe nucleus (CS; PMnR; PMN)"
+  },
+  {
+    "species": "rat",
+    "main": "superior central nucleus raph<8e>, lateral part_sw",
+    "brain_code": "R115.1",
+    "long": "Rat: superior central nucleus raph<8e>, lateral part_sw (CSl)"
+  },
+  {
+    "brain_code": "R115.2",
+    "long": "Rat: superior central nucleus raph<8e>, medial part; median raphe nucleus; median raphe (CSm; MnR)",
+    "species": "rat",
+    "main": "superior central nucleus raph<8e>, medial part"
+  },
+  {
+    "species": "rat",
+    "main": "dorsomedial hypothalamic nucleus",
+    "long": "Rat: dorsomedial hypothalamic nucleus (DMH; DM)",
+    "brain_code": "R116"
+  },
+  {
+    "long": "Rat: amygdala (AMY)",
+    "brain_code": "R122",
+    "main": "amygdala",
+    "species": "rat"
+  },
+  {
+    "brain_code": "R124",
+    "long": "Rat: anterior hypothalamic nucleus (AHN; LA)",
+    "species": "rat",
+    "main": "anterior hypothalamic nucleus"
+  },
+  {
+    "brain_code": "R140",
+    "long": "Rat: infralimbic area; infralimbic cortex (ILA; IL)",
+    "species": "rat",
+    "main": "infralimbic area"
+  },
+  {
+    "brain_code": "R147",
+    "long": "Rat: lateral septal nucleus (LS)",
+    "main": "lateral septal nucleus",
+    "species": "rat"
+  },
+  {
+    "brain_code": "R147.2",
+    "long": "Rat: lateral septal nucleus, ventral part; lateral septal nucleus, ventral part ; septohypothalamic nucleus (LSv; LSV)",
+    "species": "rat",
+    "main": "lateral septal nucleus, ventral part"
+  },
+  {
+    "species": "rat",
+    "main": "medial amygdalar nucleus",
+    "long": "Rat: medial amygdalar nucleus; medial amygdaloid nucleus; medial amygdala (MEA; Me)",
+    "brain_code": "R148"
+  },
+  {
+    "species": "rat",
+    "main": "medial amygdalar nucleus, posterodorsal part",
+    "brain_code": "R148.1",
+    "long": "Rat: medial amygdalar nucleus, posterodorsal part; medial amygdaloid nucleus, posterodorsal part; posterodorsal medial amygdala nucleus (MEApd; MePD; MEPD)"
+  },
+  {
+    "main": "medial amygdalar nucleus, anterodorsal part",
+    "species": "rat",
+    "long": "Rat: medial amygdalar nucleus, anterodorsal part; medial amygdaloid nucleus, ant dorsal; anterior-dorsal medial amygdala (MEAad; MeAD)",
+    "brain_code": "R148.2"
+  },
+  {
+    "species": "rat",
+    "main": "medial preoptic area",
+    "brain_code": "R150",
+    "long": "Rat: medial preoptic area (MPO; MPA)"
+  },
+  {
+    "main": "prelimbic area",
+    "species": "rat",
+    "brain_code": "R158",
+    "long": "Rat: prelimbic area; prelimbic cortex (PL; PrL)"
+  },
+  {
+    "brain_code": "R184",
+    "long": "Rat: accessory olfactory bulb (AOB)",
+    "species": "rat",
+    "main": "accessory olfactory bulb"
+  },
+  {
+    "species": "rat",
+    "main": "accessory olfactory bulb, granule cell layer",
+    "brain_code": "R184.1",
+    "long": "Rat: accessory olfactory bulb, granule cell layer; granule cell layer of the accessory olfactory bulb (AOBgr; GrA)"
+  },
+  {
+    "species": "rat",
+    "main": "accessory olfactory bulb, mitral layer",
+    "long": "Rat: accessory olfactory bulb, mitral layer; mitral cell layer of the accessory olfactory bulb (AOBmi; MiA)",
+    "brain_code": "R184.2"
+  },
+  {
+    "brain_code": "R185",
+    "long": "Rat: bed nucleus of the accessory olfactory tract (BA; BAOT)",
+    "main": "bed nucleus of the accessory olfactory tract",
+    "species": "rat"
+  },
+  {
+    "long": "Rat: medial preoptic nucleus (MPN; MPO)",
+    "brain_code": "R186",
+    "species": "rat",
+    "main": "medial preoptic nucleus"
+  }
+]
